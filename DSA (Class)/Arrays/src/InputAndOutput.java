@@ -2,20 +2,29 @@ import java.util.Scanner;
 
 public class InputAndOutput {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the size of the array : ");
-        int size = input.nextInt();
+        // Ask the user for the size of the array
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
 
+        // Declare the array with the user-specified size
         int[] arr = new int[size];
 
-        System.out.print("Enter " + size + " elements:");
-        for(int i = 0; i < size; i++){
-            arr[i] = input.nextInt();
+        // Input values into the array
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextInt();
         }
 
+        // Output the values of the array
+        System.out.println("The values in the array are:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i]);
+            System.out.print(" ");
+        }
 
-
-        input.close();
+        // Close the scanner to avoid resource leak
+        scanner.close();
     }
 }
