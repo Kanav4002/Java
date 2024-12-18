@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7af6a21f-27a0-4ecb-8592-c37faac3f8ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Class/Functions/Functions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Class/Functions/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSA (Class)/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSA (Class)/2D Arrays/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSA (Class)/2D Arrays/src/TicTacToeSir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DSA (Class)/Arrays/src/InsertElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/.idea/Class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/Identifiers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Input/Input.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Operators/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Operators/Operators.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Questions/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Questions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Questions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Questions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java Class/Questions/Questions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/Lecture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/src/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/src/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/src/Return.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Identifiers/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Identifiers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Input/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Input/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Arithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Bitwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Bitwise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Logical.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Logical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Relational.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Relational.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Shift.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Shift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Operators/src/Unary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Operators/src/Unary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Questions/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Questions/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Questions/src/DiamondPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Questions/src/DiamondPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Questions/src/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Questions/src/FibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Questions/src/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Questions/src/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Class/Questions/src/ReverseTheDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java Class/Questions/src/ReverseTheDigits.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kanav4002"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Kanav4002/Java.git",
+    "accountId": "b0704ce8-140c-405c-b24c-8b249d7d8bf1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2q3kqUflEHhrogDAhMqtvhj3h6w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kanavkumar/Desktop/Academics/Java Course/Lecture Code/5 While loop, Methods & Arrays"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7af6a21f-27a0-4ecb-8592-c37faac3f8ea" name="Changes" comment="" />
+      <created>1733898836966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733898836966</updated>
+    </task>
+    <servers />
+  </component>
+</project>
