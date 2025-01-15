@@ -29,6 +29,9 @@ public class App {
             str[i] = input.next();
         }
         System.out.println(Arrays.toString(str));
+        str[0] = "Jasleen";
+        System.out.println(Arrays.toString(str));
+
         System.out.println();
         input.close();
     }
