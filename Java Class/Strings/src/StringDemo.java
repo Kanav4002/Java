@@ -17,7 +17,6 @@ public class StringDemo {
     String str3 = "Hello";
     System.out.println(str2 == str3);
     // System.out.println(str2.equals(str3));
-    
-    
+
   } 
 }
