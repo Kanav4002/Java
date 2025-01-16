@@ -41,7 +41,7 @@ public class Main {
 
 
     // 7) replace
-    System.out.println(str.replace('H', 'W'));
+    System.out.println(str.replace("Hello", "World"));
 
     
     // 8) find sequence
