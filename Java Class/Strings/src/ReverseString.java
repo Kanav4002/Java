@@ -5,8 +5,9 @@ public class ReverseString {
     String str = input.nextLine();
     int n = str.length();
     String rev = "";
-    for(int i = n - 1; i >= 0; i--) {
-      rev = rev + str.charAt(i);
+    
+    for(int i = 0; i < n; i++) {
+      rev = str.charAt(i) + rev;
     }
     System.out.println("Reverse string is : " + rev);
   }
