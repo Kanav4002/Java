@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Node1 {
   int data;
-  Node next;
+  Node1 next;
 
   Node1(int data) {
     this.data = data;
@@ -10,11 +10,11 @@ public class Node1 {
 
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    Node n1 = new Node(5);
-    Node n2 = new Node(2);
-    Node n3 = new Node(15);
-    Node n4 = new Node(12);
-    Node n5 = new Node(14);
+    Node1 n1 = new Node1(5);
+    Node1 n2 = new Node1(2);
+    Node1 n3 = new Node1(15);
+    Node1 n4 = new Node1(12);
+    Node1 n5 = new Node1(14);
 
     n1.next = n2;
     n2.next = n3;
@@ -22,7 +22,7 @@ public class Node1 {
     n4.next = n5;
 
     int target = input.nextInt();
-    for (Node current = n1; current != null; current = current.next) {
+    for (Node1 current = n1; current != null; current = current.next) {
       if (current.data == target) {
           if (current.next != null) {
               System.out.println(current.next.data);
