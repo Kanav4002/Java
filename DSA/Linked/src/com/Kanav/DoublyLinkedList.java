@@ -1,92 +1,54 @@
 package com.Kanav;
 
-class DoublyLinkedList {
-    Node head;
-
-    // Node class for a doubly linked list
-    class Node {
-        int data;
+public class DoublyLinkedList {
+    public static class Node{
+        int val;
         Node next;
         Node prev;
-
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-            this.prev = null;
+        Node(int val){
+            this.val=val;
         }
     }
-
-    // Method to insert a node at the end
-    public void append(int data) {
-        Node newNode = new Node(data);
-
-        // If the list is empty, make the new node the head
-        if (head == null) {
-            head = newNode;
-            return;
+    public static Node reverse(Node head){
+        Node temp=head;
+        Node prev=null;
+        Node a1=null;
+        while(temp!=null){
+            a1=temp.prev;
+            temp.prev=temp.next;
+            temp.next=a1;
+            prev=temp;
+            temp=temp.prev;
         }
-
-        Node last = head;
-        // Traverse to the last node
-        while (last.next != null) {
-            last = last.next;
-        }
-
-        // Set the next of the last node to the new node
-        last.next = newNode;
-        newNode.prev = last;
+        return prev;
     }
-
-    // Method to reverse the doubly linked list
-    public void reverse() {
-        Node temp = null;
-        Node current = head;
-
-        // Swap next and prev pointers of each node
-        while (current != null) {
-            // Swap next and prev for the current node
-            temp = current.next;
-            current.next = current.prev;
-            current.prev = temp;
-
-            // Move to the next node (which is actually the previous node after swap)
-            current = current.prev;
-        }
-
-        // After the loop, the head should be the last node
-        if (temp != null) {
-            head = temp.prev; // Head should now be the last node
+    public static void displayrev(Node head){
+        Node temp=head;
+        while(temp!=null){
+            System.out.print(temp.val+" ");
+            temp=temp.next;
         }
     }
-
-    // Method to print the doubly linked list
-    public void printList() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.print(temp.data + " ");
-            temp = temp.next;
-        }
-        System.out.println();
-    }
-
-    // Main method to test the doubly linked list
     public static void main(String[] args) {
-        DoublyLinkedList list = new DoublyLinkedList();
-
-        // Append some nodes to the list
-        list.append(10);
-        list.append(20);
-        list.append(30);
-        list.append(40);
-        list.append(50);
-
-        System.out.println("Original list:");
-        list.printList();
-
-        // Reverse the list
-        list.reverse();
-
-        System.out.println("Reversed list:");
-        list.printList();
+        Node a=new Node(5);
+        Node b=new Node(55);
+        Node c=new Node(3);
+        Node d=new Node(3);
+        Node e=new Node(9);
+        Node f=new Node(6);
+        a.prev=null;
+        a.next=b;
+        b.prev=a;
+        b.next=c;
+        c.prev=b;
+        c.next=d;
+        d.prev=c;
+        d.next=e;
+        e.prev=d;
+        e.next=f;
+        f.prev=e;
+        f.next=null;
+        Node a1=reverse(a);
+        displayrev(a1);
     }
 }
