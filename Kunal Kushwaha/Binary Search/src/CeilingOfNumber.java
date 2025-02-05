@@ -1,5 +1,9 @@
 public class CeilingOfNumber {
     public static int ceiling(int[] arr, int target) {
+        if(target > arr[arr.length - 1]) {
+            return -1;
+        }
+
         int start = 0, end = arr.length - 1;
 
         while(start <= end) {
@@ -19,7 +23,7 @@ public class CeilingOfNumber {
 
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
-        int target = 15;
+        int target = 19;
 
         int result = ceiling(arr, target);
         System.out.println("Ceiling of the target element (index) : " + result);
