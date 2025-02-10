@@ -39,6 +39,11 @@ class bike extends motor_vehicle {
     void start() { // method overriding
         System.out.println("Starts by kick");
     }
+
+    // scope of methods while overriding
+    private void protected_func() { // must have same or larger scope
+        System.out.println("protected function");
+    }
 }
 
 public class Overriding {
