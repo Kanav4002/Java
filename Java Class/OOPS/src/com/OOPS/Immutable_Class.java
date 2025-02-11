@@ -29,9 +29,9 @@ final class Immutable {
         return this.b;
     }
 
-    print() {
-
-    }
+//    print() {
+//
+//    }
 }
 
 public class Immutable_Class {
@@ -40,6 +40,6 @@ public class Immutable_Class {
         m1.x = 10;
 
         Immutable im = new Immutable(10, 20, m1);
-        im.print();
+//        im.print();
     }
 }
