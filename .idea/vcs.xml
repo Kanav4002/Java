@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DSA/Class Code/G24" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Java Class/LectureCode/G24-Core_Java-2nd-year" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java Classroom Codes/src/G24-Core_Java-2nd-year" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LectureDSA/G24" vcs="Git" />
   </component>
 </project>
