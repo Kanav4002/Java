@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b429aee9-a2de-4164-ad1e-4041ea6da999" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/StackClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/src/com/Jan29/InsertAtBottomOfStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/src/com/Jan29/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DSA/StackClass/src/com/Jan29/MyStackClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DSA/Linked/src/com/Kanav/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/Linked/src/com/Kanav/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/ArrayReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/BasicOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/LargestAndSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/PrintAllElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/Arrays/src/SearchElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMaps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMaps/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMaps/HashMaps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/src/RotatedSortedArrayWithDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/GreetingMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/INRToUSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/NumAndOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/OddAndEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/PalindromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kunal Kushwaha/First Java/src/SimpleInterest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StriverDSA/src/BasicMaths/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StriverDSA/src/BasicMaths/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/src/PeakIndexMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/src/PeakIndexMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/src/RotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kunal Kushwaha/Binary Search/src/RotatedSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
