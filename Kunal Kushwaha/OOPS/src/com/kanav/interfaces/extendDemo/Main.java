@@ -1,4 +1,13 @@
 package com.kanav.interfaces.extendDemo;
 
-public class Main {
+public class Main implements A, B {
+    @Override
+    public void fun() {
+
+    }
+
+    @Override
+    public void greet() {
+
+    }
 }

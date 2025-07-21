@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.polymorphism;
+package com.kanav.properties.polymorphism;
 
 public class Triangle extends Shapes {
     void area () {

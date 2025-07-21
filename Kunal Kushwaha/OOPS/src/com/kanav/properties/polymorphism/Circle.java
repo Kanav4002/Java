@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.polymorphism;
+package com.kanav.properties.polymorphism;
 
 public class Circle extends Shapes {
     void area () {

@@ -1,14 +1,17 @@
 package com.kanav.abstractDemo;
 
-public class Son extends Parent {
-
-    @Override
-    void career(String name) {
-        System.out.println("I am going to be " + name);
+public class Daughter extends Parent {
+    public Daughter(int age) {
+        super(age);
     }
 
     @Override
-    void partner(String name, int age) {
-        System.out.println("I love " + name + " she is " + age);
+    void career() {
+        System.out.println("I am going to be Doctor");
+    }
+
+    @Override
+    void partner() {
+        System.out.println("I love Batman");
     }
 }

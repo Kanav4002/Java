@@ -1,4 +1,6 @@
 package com.kanav.interfaces.extendDemo;
 
-public interface B {
+public interface B extends A {
+    void greet();
+
 }

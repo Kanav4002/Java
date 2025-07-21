@@ -1,15 +1,21 @@
 package com.kanav.generics;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomGenArrayList<T> {
+public class WildCardExample<T extends Number> {
     private Object[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0; // also working as index value
 
-    public CustomGenArrayList() {
+    public WildCardExample() {
         data = new Object[DEFAULT_SIZE];
+    }
+
+    public void getList(List<? extends Number> list) {
+        // do something
+
+        // here you can only pass type Number
     }
 
     public void add(T num) {
@@ -63,7 +69,7 @@ public class CustomGenArrayList<T> {
 
     public static void main(String[] args) {
 //        ArrayList list = new ArrayList();
-        CustomGenArrayList list = new CustomGenArrayList();
+        WildCardExample list = new WildCardExample();
 //        list.add(3);
 //        list.add(6);
 //        list.add(9);
@@ -88,7 +94,7 @@ public class CustomGenArrayList<T> {
 //        list4.add(10);
 //        list4.add('a');
 
-        CustomGenArrayList<Integer> list5 = new CustomGenArrayList<>();
+        WildCardExample<Integer> list5 = new WildCardExample<>();
         for (int i = 0; i < 15; i++) {
             list5.add(2 * i);
         }

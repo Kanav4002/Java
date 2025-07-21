@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.polymorphism;
+package com.kanav.properties.polymorphism;
 
 public class Numbers {
     // Example of Compile Time Polymorphism, also called method overloading.

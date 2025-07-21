@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.polymorphism;
+package com.kanav.properties.polymorphism;
 
 public class ObjectPrint {
     // By   default, in Java every class extends the object class

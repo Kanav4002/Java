@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.inheritance;
+package com.kanav.properties.inheritance;
 
 // This is representing Multilevel Inheritance
 public class BoxPrice extends BoxWeight {

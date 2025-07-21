@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.inheritance;
+package com.kanav.properties.inheritance;
 
 public class Main {
     public static void main(String[] args) {

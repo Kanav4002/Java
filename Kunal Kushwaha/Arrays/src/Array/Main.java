@@ -1,4 +1,4 @@
-import java.util.*;
+package Array;
 
 class Writer {
     private String name, email;

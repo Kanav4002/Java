@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.inheritance;
+package com.kanav.properties.inheritance;
 
 public class Box {
     private double l; // example of Data Hiding

@@ -1,4 +1,4 @@
-package com.kanav.oopsProperties.polymorphism;
+package com.kanav.properties.polymorphism;
 
 public class Square extends Shapes {
     // This method is being overridden

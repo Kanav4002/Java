@@ -1,11 +1,11 @@
-package com.Kanav.SingleLL;
+package com.Kanav;
 
 public class LL {
     private Node head;
     private Node tail;
     private int size;
 
-    public LL() {
+    public LL()  {
         this.size = 0;
     }
 
@@ -21,16 +21,36 @@ public class LL {
         size++;
     }
 
-    public void insertEnd(int val) {
-        if(tail == null) {
-            insertFirst(val);
-            return;
-        }
+//    insert using recursion
+//    public void insertRec(int val, int index) {
+//
+//    }
 
+
+//    public void insertEnd(int val) {
+//        if(tail == null) {
+//            insertFirst(val);
+//            return;
+//        }
+//
+//        Node node = new Node(val);
+//        tail.next = node;
+//        tail = node;
+//        size++;
+//    }
+
+    // without recursion
+    public void insertEnd(int val) {
         Node node = new Node(val);
-        tail.next = node;
-        tail = node;
-        size++;
+        if(head == null) {
+            head = node;
+        } else {
+            Node temp = head;
+            while(temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = node;
+        }
     }
 
     public void insert(int val, int index) {
@@ -109,6 +129,22 @@ public class LL {
         return val;
     }
 
+
+    public void duplicates() {
+        Node node = head;
+
+        while(node.next != null) {
+             if (node.value == node.next.value) {
+                 node.next = node.next.next;
+                 size--;
+             } else {
+                 node = node.next;
+             }
+        }
+        tail = node;
+        tail.next = null;
+    }
+
     public void display() {
         // this won't change the head position
         Node temp = head;
@@ -132,5 +168,18 @@ public class LL {
             this.value = value;
             this.next = next;
         }
+    }
+
+    public static void main(String[] args) {
+        LL list = new LL();
+        list.insertEnd(1);
+        list.insertEnd(1);
+        list.insertEnd(1);
+        list.insertEnd(2);
+        list.insertEnd(2);
+        list.insertEnd(4);
+        list.insertEnd(4);
+        list.duplicates();
+        list.display();
     }
 }
