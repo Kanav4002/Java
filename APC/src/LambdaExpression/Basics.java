@@ -25,7 +25,7 @@ public class Basics {
         nums.add(30);
         nums.add(40);
         nums.add(20);
-//        nums.forEach((n)-> { System.out.println(n); });
+        nums.forEach((n)-> { System.out.println(n); });
 
         Consumer<Integer> method = (n) -> { System.out.println(n); };
         nums.forEach(method);
